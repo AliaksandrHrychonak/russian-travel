@@ -9,7 +9,8 @@
 
 @media screen and (max-width: 1024px) {
   .header {
-    margin: 0 0 48px 0;
+    max-width: 928px;
+    margin: 28px 48px 48px 48px;
   }
 }
 

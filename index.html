@@ -12,8 +12,8 @@
     <header class="header">
       <img class="header__logo" src="images/header-logo.svg" alt="логотип">
       <div class="header__lang">
-        <p class="header__lang-link header__lang-link_theme-underline">Ru</p>
-        <p class="header__lang-link">En</p>
+        <a class="header__lang-link header__lang-link_theme-underline" href="#">Ru</a>
+        <a class="header__lang-link" href="#">En</a>
       </div>
     </header>
     <main class="content">
@@ -27,11 +27,11 @@
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li class="intro__list-item"><p class="intro__list-text">Часовых поясов 11</p></li>
-          <li class="intro__list-item"><p class="intro__list-text">Объектов природного наследия ЮНЕСКО 12</p></li>
-          <li class="intro__list-item"><p class="intro__list-text">Объектов культурного наследия ЮНЕСКО 16</p></li>
-          <li class="intro__list-item"><p class="intro__list-text">Природных заповедников 105</p></li>
-          <li class="intro__list-item"><p class="intro__list-text">Аэропортов 241</p></li>
+          <li class="intro__list-text">Часовых поясов <span class="intro__span-accen">11</span></li>
+          <li class="intro__list-text">Объектов природного наследия ЮНЕСКО <span class="intro__span-accen">12</span></li>
+          <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО <span class="intro__span-accen">16</span></li>
+          <li class="intro__list-text">Природных заповедников <span class="intro__span-accen">105</span></li>
+          <li class="intro__list-text">Аэропортов <span class="intro__span-accen">241</span></li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -50,7 +50,7 @@
       </section>
       <section class="places">
         <div class="place">
-          <h3 class="place__title">Куршская коса</h3>
+          <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__url" href="http://park-kosa.ru">park-kosa.ru</a>
@@ -62,7 +62,7 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Кольский</h3>
+          <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__url" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
@@ -78,7 +78,7 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Алтай</h3>
+          <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__url" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
@@ -95,7 +95,7 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Зимний Байкал</h3>
+          <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__url" href="https://vk.com/baikalmil">https://vk.com/baikalmile</a>
@@ -111,7 +111,7 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Карелия</h3>
+          <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__url" href="http://vodlozero.ru">http://vodlozero.ru/</a>
@@ -123,12 +123,6 @@
         </div>
       </section>
       <section class="cover">
-        <div class="cover__background"></div>
-        <a class="cover__item-link" href="">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-          <div class="cover__overlay"></div>
-        </a>
         <div class="cover__overlay">
           <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala">
             <h2 class="cover__title">До Байкала «на собаках»</h2>
@@ -138,13 +132,15 @@
       </section>
     </main>
     <footer class="footer">
-      <ul class="footer__links">
-        <li class="footer__item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-        <li class="footer__item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-        <li class="footer__item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-        <li class="footer__item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
-        <li class="footer__item"><a class="footer__link" href=" https://travel.yandex.ru">Путешествия</a></li>
-      </ul>
+      <nav class="footer__menu">
+        <ul class="footer__links">
+          <li class="footer__item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+          <li class="footer__item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+          <li class="footer__item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+          <li class="footer__item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
+          <li class="footer__item"><a class="footer__link" href=" https://travel.yandex.ru">Путешествия</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright">&copy; 2021. Александр Гриченок</p>
     </footer>
   </div>
