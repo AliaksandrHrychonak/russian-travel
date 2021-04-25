@@ -13,14 +13,17 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+  }
 }
 
 @media screen and (max-width: 710px) {
   .footer__item:first-child {
     padding-top: 64px;
+  }
 }
 
 @media screen and (max-width: 710px) {
   .footer__item:last-child {
     padding-bottom: 0;
+  }
 }
