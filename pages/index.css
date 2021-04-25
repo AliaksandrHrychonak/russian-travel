@@ -7,7 +7,7 @@
 @import "../blocks/header/__lang/header__lang.css";
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
-@import "../blocks/header/__lang-link/_theme-underline/header_lang-link_theme-underline.css";
+@import "../blocks/header/__lang-link/_theme-underline/header__lang-link_theme-underline.css";
 /* CONTENT */
 @import "../blocks/content/content.css";
 /* LEAD */
@@ -21,7 +21,7 @@
 @import "../blocks/intro/__title/intro__title.css";
 @import "../blocks/intro/__text/intro__text.css";
 @import "../blocks/intro/__list/intro__list.css";
-@import "../blocks/intro/__list-item/into__list-item.css";
+@import "../blocks/intro/__list-item/intro__list-item.css";
 @import "../blocks/intro/__list-text/intro__list-text.css";
 /* PHOTO-GRID */
 @import "../blocks/photo-grid/photo-grid.css";
