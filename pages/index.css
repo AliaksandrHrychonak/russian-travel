@@ -1,6 +1,7 @@
 /* GLOBAL */
 @import "../vendor/normalize.css";
 @import  "../fonts/fonts.css";
+@import "../blocks/body/body.css";
 @import "../blocks/page/page.css";
 /* HEADER */
 @import "../blocks/header/header.css";
