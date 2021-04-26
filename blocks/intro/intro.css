@@ -1,28 +1,26 @@
 .intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 100%;
-  max-width: 690px;
+  max-width: 984px;
   margin: 0 0 0 148px;
   padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    margin: 0 0 0 48px;
+    max-width: 690px;
+    margin-left: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin: 0 0 0 24px;
+    max-width: 720px;
+    margin-left: 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
   .intro {
-    margin: 0 0 0 16px;
+    max-width: calc(100vw - 32px); /* додумался только так */
+    margin-left: 16px;
   }
 }
