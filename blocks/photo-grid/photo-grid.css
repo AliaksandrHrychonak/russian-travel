@@ -4,7 +4,6 @@
   max-width: calc(1184px + 96px);
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
   margin: 92px 0 0 0;
-  padding: 0 48px 0 48px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -15,6 +14,7 @@
 @media screen and (max-width: 1024px) {
   .photo-grid {
     gap: 14px;
+    padding: 0 48px 0 48px;
   }
 }
 
