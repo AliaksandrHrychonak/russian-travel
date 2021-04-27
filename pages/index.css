@@ -13,6 +13,7 @@
 @import "../blocks/content/content.css";
 /* LEAD */
 @import "../blocks/lead/lead.css";
+@import "../blocks/lead/__item/lead__item.css";
 @import "../blocks/lead/__image/lead__image.css";
 @import "../blocks/lead/__title/lead__title.css";
 @import "../blocks/lead/__subtitle/lead__subtitle.css";
