@@ -24,5 +24,5 @@
 - Сделать форму добавления новых мест.
 - Реализовать добавления новых мест с описанием с помощью формы.
 
-Ссылка Github : https://github.com/AliaksandrHrychonak/russian-travel
-Cсылка на страницу : https://aliaksandrhrychonak.github.io/russian-travel/
+#### Ссылка Github : https://github.com/AliaksandrHrychonak/russian-travel
+#### Cсылка на страницу : https://aliaksandrhrychonak.github.io/russian-travel/
